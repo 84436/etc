@@ -1,0 +1,18 @@
+/* Custom CSS cho Zettlr
+ * Note: cái stylesheet này được viết với giả định
+ * theme được dùng là theme mặc định (Berlin)
+ * và người dùng không đổi theme đó ._.
+ */
+
+/* Import từ một nùi stylesheet khác */
+@import "./custom-tweak-font.css";
+@import "./custom-tweak-table.css";
+@import "./custom-tweak-menu-bar.css";
+
+/* Định nghĩa constant các thứ */
+:root {
+    --font-for-headers: "Inter", sans-serif;
+    --font-for-text: "Noto Serif", serif;
+    --font-for-code: "Iosevka Custom", monospace;
+    --font-for-ui: "Inter", sans-serif;
+}

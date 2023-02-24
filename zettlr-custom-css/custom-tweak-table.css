@@ -1,0 +1,4 @@
+/* Table: thêm đệm cho từng ô cho nó thoáng đãng một xíu */
+.table-helper td {
+    padding: 0.75ch !important;
+}

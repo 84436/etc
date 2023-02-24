@@ -1,0 +1,33 @@
+/* Tút cái chỉ dẫn phím tắt cho các menu item
+ * (font monospace, kích thước nhỏ hơn và màu chìm hơn)
+ */
+.menu-item .after-element {
+    font-family: var(--font-for-code);
+    font-size: calc(14px - 2px);
+    opacity: 0.50;
+}
+
+/* Giảm khoảng cách cho biểu tượng (dấu check) ở trước mỗi menu item */
+.menu-item {
+    grid-template-columns: 32px auto 100px !important;
+}
+.menu-item .status clr-icon {
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+/* Làm nhẹ lại màu của separator (đường vạch ngang) trong menu */
+.menu-item.separator {
+    border-bottom-color: hsl(0, 0%, 80%) !important;
+}
+body.dark .menu-item.separator {
+    border-bottom-color: hsl(0, 0%, 30%) !important;
+}
+
+/* Làm nhẹ lại màu nền của menu item khi được hover */
+.menu-item:not(.separator):not(.disabled):hover {
+    background-color: hsl(0, 0%, 80%) !important;
+}
+body.dark .menu-item:not(.separator):not(.disabled):hover {
+    background-color: hsl(0, 0%, 30%) !important;
+}

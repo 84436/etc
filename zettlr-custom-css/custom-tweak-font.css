@@ -1,0 +1,29 @@
+/* Đổi font giao diện (chữ trên menu, v.v.) */
+body {
+    font-family: var(--font-for-ui);
+}
+
+/* Đổi font văn bản */
+#editor .CodeMirror {
+    font-family: var(--font-for-text);
+}
+
+/* Đổi font cho header (đề mục) trong văn bản */
+#editor .CodeMirror .cm-header {
+    font-family: var(--font-for-headers);
+}
+
+/* Đổi font cho:
+ *  # (đánh đấu header 1 -> 6)
+ *  LaTeX cho biểu thức toán (inline)
+ *  Code (inline)
+ *  Code (block)
+ *  Front matter (cái phần YAML ở đầu file)
+ */
+#editor .CodeMirror .cm-formatting-header,
+#editor .CodeMirror .cm-stex-mode,
+#editor .CodeMirror .cm-inline-math,
+#editor .CodeMirror .cm-comment,
+#editor .CodeMirror .cm-fenced-code {
+    font-family: var(--font-for-code) !important;
+}
