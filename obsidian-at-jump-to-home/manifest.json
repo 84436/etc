@@ -1,0 +1,9 @@
+{
+  "id": "at-jump-to-home",
+  "name": "@JumpToHome",
+  "version": "1.0.0",
+  "description": "A tiny plugin to open a specific 'home' file in the vault",
+  "author": "@84436",
+  "authorUrl": "https://github.com/84436",
+  "isDesktopOnly": false
+}

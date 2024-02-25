@@ -1,0 +1,18 @@
+@ECHO OFF
+SETLOCAL
+
+SET ROOT_FOLDER=%~DP0
+SET REPO_FOLDER_NAME=repo
+SET NUMBER_OF_BUILD_THREADS=12
+
+CD /D "%ROOT_FOLDER%"
+IF NOT EXIST "%REPO_FOLDER_NAME%" (
+    ECHO Repo clone not found.
+    EXIT /B
+)
+CD "%REPO_FOLDER_NAME%"
+
+CALL npm install
+CALL npm run build -- --jCmd=%NUMBER_OF_BUILD_THREADS% contents::iosevka-custom
+
+ENDLOCAL

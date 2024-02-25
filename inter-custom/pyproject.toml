@@ -1,0 +1,8 @@
+[project]
+dependencies = [
+    "opentype-feature-freezer>=1.32.2",
+]
+requires-python = ">=3.10"
+
+[tool.pdm]
+package-type = "application"

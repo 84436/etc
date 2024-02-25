@@ -1,0 +1,5 @@
+inter-custom/.venv
+inter-custom/.pdm-python
+iosevka-custom-builder/repo
+iosevka-custom-builder/output
+sync.bat
