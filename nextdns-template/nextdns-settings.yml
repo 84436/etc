@@ -1,0 +1,157 @@
+---
+# NextDNS Configuration File, revision 1
+# This is meant to be human-readable and human-editing-friendly.
+# Blocklists are opinionated & do NOT include regional variants,
+# e.g. no Vietnamese-specific ad blocklists
+
+# Block specific domains & its subdomains
+denylist:
+    - example.com
+    - innocent.website: false # no-op (added to denylist, but in disabled state)
+
+# Allow specific domains & its subdomains
+allowlist:
+    - example.com
+    - innocent.website: false # no-op (added to allowlist, but in disabled state)
+
+# Block by brands/community-maintained filter lists
+privacy:
+    disguisedTrackers: true
+    allowAffiliate: true
+    natives:
+        - alexa
+        - apple
+        - huawei
+        - roku
+        - samsung
+        - sonos
+        - windows
+        - xiaomi
+    blocklists:
+        # The default
+        - nextdns-recommended
+
+        # Aggregated lists
+        - 1hosts-pro
+        - lightswitch05-ads-tracking
+        - oisd
+        - steven-black
+        - hblock
+
+        # Adguard & Fanboy
+        - adguard-base-filter
+        - adguard-dns-filter
+        - adguard-mobile-ads-filter
+        - adguard-social-media-filter
+        - adguard-tracking-protection-filter
+        - easylist
+        - easyprivacy
+        - fanboy-annoyance
+        - fanboy-enhanced-tracking
+        
+        # Mobile
+        - adaway
+        - goodbye-ads
+
+        # Other
+        - add-2o7net
+        - anudeep-blacklist
+        - cameleon
+        - notrack-tracker-blocklist
+        - notracking
+        - perflyst-smarttv
+        - peter-lowe
+        - someonewhocares
+        - wally3k-personal
+        - windowsspyblocker-spy
+
+# Block specific sites/types of site
+parentalControl:
+    safeSearch: false
+    youtubeRestrictedMode: false
+    blockBypass: true
+    categories:
+        #- piracy
+        #- social-networks
+        #- gaming
+        #- video-streaming
+        #- porn
+        #- gambling
+        #- dating
+    services:
+        #- 9gag
+        #- amazon
+        #- chatgpt
+        #- dailymotion
+        #- discord
+        #- ebay
+        #- facebook
+        #- google-chat
+        #- imgur
+        #- instagram
+        #- mastodon
+        #- messenger
+        #- netflix
+        #- reddit
+        #- signal
+        #- skype
+        #- spotify
+        #- steam
+        #- telegram
+        #- tumblr
+        #- twitch
+        #- twitter
+        #- vimeo
+        #- whatsapp
+        #- youtube
+        #- zoom
+        #- tiktok
+        #- bereal
+        #- blizzard
+        #- disneyplus
+        #- fortnite
+        #- hbomax
+        #- hulu
+        #- leagueoflegends
+        #- minecraft
+        #- pinterest
+        #- playstation-network
+        #- primevideo
+        #- roblox
+        #- snapchat
+        #- tinder
+        #- vk
+        #- xboxlive
+
+# General domain rules
+security:
+    threatIntelligenceFeeds: true
+    aiThreatDetection: false
+    googleSafeBrowsing: true
+    cryptojacking: true
+    dnsRebinding: true
+    idnHomographs: true
+    typosquatting: true
+    dga: true
+    nrd: false
+    ddns: true
+    parking: true
+    csam: true
+    tlds: []
+
+# Logging, performance and additional features
+settings:
+    logs:
+        enabled: true
+        drop:
+            ip: true
+            domain: false
+        retention: 2592000
+        location: ch
+    blockPage:
+        enabled: false
+    performance:
+        ecs: true
+        cacheBoost: false
+        cnameFlattening: true
+    web3: false

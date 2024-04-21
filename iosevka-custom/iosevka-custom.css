@@ -1,0 +1,315 @@
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalThin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalThinOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalThinOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalThinItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraLightItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalLightItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalMedium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalMediumOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalMediumOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalMediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalSemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalSemiBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalSemiBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalSemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalExtraBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalHeavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalHeavyOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalHeavyOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://raw.githubusercontent.com/84436/etc/main/iosevka-custom/WOFF2/iosevka-custom-normalHeavyItalic.woff2') format('woff2');
+}

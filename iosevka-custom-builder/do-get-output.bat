@@ -1,0 +1,25 @@
+@ECHO OFF
+SETLOCAL
+
+SET ROOT_FOLDER=%~DP0
+SET REPO_FOLDER_NAME=repo
+SET OUTPUT_FOLDER_NAME=output
+
+CD /D "%ROOT_FOLDER%"
+IF NOT EXIST "%REPO_FOLDER_NAME%" (
+    ECHO Repo clone not found.
+    EXIT /B
+)
+IF EXIST "%OUTPUT_FOLDER_NAME%" (
+    ECHO Output folder exists; removing...
+    RMDIR /S /Q "%OUTPUT_FOLDER_NAME%"
+)
+MKDIR "%OUTPUT_FOLDER_NAME%"
+MKDIR "%OUTPUT_FOLDER_NAME%\TTF"
+MKDIR "%OUTPUT_FOLDER_NAME%\WOFF2"
+COPY "iosevka-custom.css" "%OUTPUT_FOLDER_NAME%\iosevka-custom.css"
+COPY "private-build-plans.toml" "%OUTPUT_FOLDER_NAME%\private-build-plans.toml"
+COPY "%REPO_FOLDER_NAME%\dist\iosevka-custom\TTF" "%OUTPUT_FOLDER_NAME%\TTF"
+COPY "%REPO_FOLDER_NAME%\dist\iosevka-custom\WOFF2" "%OUTPUT_FOLDER_NAME%\WOFF2"
+
+ENDLOCAL

@@ -1,0 +1,88 @@
+# IOSEVKA CUSTOM
+# Inspired by JetBrains Mono, but with some personalizations of mine
+# https://typeof.net/Iosevka/customizer
+# https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md
+#
+# QUICK START
+# git clone --branch=main --depth=1 https://github.com/be5invis/Iosevka.git iosevka-custom
+# npm install
+# npm run build -- --jCmd=4 contents::iosevka-custom
+
+[buildPlans.iosevka-custom]
+family = "Iosevka"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+    [buildPlans.iosevka-custom.variants]
+    inherits = "ss14" # JetBrains Mono
+
+        [buildPlans.iosevka-custom.variants.design]
+        # J K Q W
+        capital-j = "flat-hook-serifless"
+        capital-k = "symmetric-touching-serifless"
+        capital-q = "curly-tailed"
+        capital-w = "straight-vertical-sides-serifless"
+        
+        # i j k l r w y
+        i = "hooky"
+        j = "flat-hook-serifless"
+        k = "symmetric-touching-serifless"
+        l = "serifed"
+        r = "hookless-serifless"
+        w = "straight-serifless"
+        y = "cursive-flat-hook-serifless"
+        
+        # Greek letters -- differentiate from similar-looking Latin counterparts
+        lower-alpha = "crossing"
+        lower-chi = "straight-serifed"
+        cyrl-capital-zhe = "symmetric-touching"
+        cyrl-zhe = "symmetric-touching"
+        cyrl-capital-ze = "bilateral-serifed"
+        cyrl-ze = "bilateral-serifed"
+        cyrl-capital-ka = "symmetric-touching-serifed"
+        cyrl-ka = "symmetric-touching-serifed"
+        cyrl-em = "hanging-serifed"
+        cyrl-en = "serifed"
+        cyrl-er = "eared-serifed"
+        cyrl-capital-u = "straight-serifed"
+        cyrl-u = "straight-serifed"
+        
+        # 0 1 4 7
+        zero = "slashed"
+        one = "no-base"
+        four = "closed-non-crossing"
+        seven = "straight-serifless"
+        
+        # * () {} # @ ¶
+        asterisk = "turn-penta-low"
+        paren = "normal"
+        brace = "straight"
+        number-sign = "upright"
+        at = "compact"
+        pilcrow = "high"
+        
+        # Notchless ligations
+        lig-neq = "slightly-slanted"
+        lig-hyphen-chain = "without-notch"
+
+    [buildPlans.iosevka-custom.ligations]
+    inherits = "dlig"
+    enables = [
+        "eqeqeq", # === triple lines
+        "exeqeq", # !== triple lines
+        "exeqeqeq", # !=== triple lines
+        "connected-underscore", # ___
+        "connected-hyphen-as-solid-line", # ---
+    ]
+    disables = [
+        "slash-asterisk", # /* */
+        "connected-hyphen-as-semi-dashed-line", # ---
+    ]
+
+# Only build one variant
+[buildPlans.iosevka-custom.widths.normal]
+shape = 525 # Slightly wider than default (500 < 525 < 600)
+menu  = 5
+css   = "normal"
