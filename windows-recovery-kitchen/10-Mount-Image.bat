@@ -1,0 +1,8 @@
+@ECHO OFF
+SETLOCAL
+
+SET WORKSPACE_DRIVE=Z:
+
+WIM apply WindowsRecoveryMod.original.wim %WORKSPACE_DRIVE%
+
+ENDLOCAL
